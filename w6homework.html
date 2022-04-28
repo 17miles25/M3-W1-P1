@@ -34,17 +34,47 @@
                 font-size: 3.5rem;
             }
         h1{
-            color: red
+            font-weight: bolder;
         }  
         .nav>span{
             border: solid grey 1px;
             border-radius: 20px;
             padding:3.2px
         }
-        div:nth-child(4)>a{
-            color: red;
-        }  
+        p>a{
+            color: maroon;
         }
+        .blog-post:first-of-type{ 
+            color: purple;
+        }
+        .blog-post:first-of-type>hr{
+            background-color: red;
+        }
+        .nav>span:nth-child(2n){
+            color: blue;
+        }
+        aside>ol>li{
+            color: red
+        }
+        .blog-post:nth-child(2n-1)>p:first-of-type>a{
+            color: red;
+        }
+        .blog-post:last-of-type>ul>li{
+            color: red;
+        }
+        body>a:last-of-type{
+            border: solid 1px red;
+            padding :5px;
+            border-radius:50px;
+        }
+        nav.blog-pagination>a:last-of-type{
+            color:red;
+        }
+        .blog-footer>p>a:last-of-type{
+            color: silver;
+        }
+    }
+        
     </style>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet" />
 </head>
